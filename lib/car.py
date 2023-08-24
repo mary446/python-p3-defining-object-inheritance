@@ -1,4 +1,6 @@
 from vehicle import Vehicle
 
 class Car(Vehicle):
-    pass
+    #overwriting inherited methods
+    def go(self):
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
